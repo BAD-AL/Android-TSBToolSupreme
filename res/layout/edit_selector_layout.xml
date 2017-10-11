@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/mEditPlayersButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit Players" />
+
+    <Button
+        android:id="@+id/mEditTeamsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit Teams" />
+
+    <Button
+        android:id="@+id/mEditScheduleButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit Schedule" />
+
+    <Button
+        android:id="@+id/mAdvancedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Advanced" />
+
+    <Button
+        android:id="@+id/mHacksButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hacks" />
+
+</LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TSBToolSupreme</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="team">Team</string>
+    <string name="load_tsb_rom">Load TSB Rom</string>
+    <string name="player_name">Player name</string>
+    <string name="jersey_number">Jersey Number</string>
+    <string name="name">Name</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="jersey_pound">Jersey #</string>
+    <string name="save_rom">Save ROM</string>
+    <string name="balance_rush">Balanced Rush</string>
+    <string name="title_activity_schedule">ScheduleActivity</string>
+    <string name="title_activity_advanced">AdvancedActivity</string>
+    <string name="title_activity_drag_drop_schedule">DragDropSchedule</string>
+    <string name="title_activity_uniform">UniformActivity</string>
+    <string name="title_activity_hack">HackActivity</string>
+    <string name="mHackDirHint">/path/to/hack/folder</string>
+    <string name="browse">Browse</string>
+    <string name="hacks">Hacks</string>
+
+</resources>

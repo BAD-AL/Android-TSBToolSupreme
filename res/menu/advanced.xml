@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/mShowColorsMenuItem"
+        android:orderInCategory="100"
+        android:title="Show Colors" android:enabled="true" android:checkable="true" android:titleCondensed="Show Colors" android:visible="true" android:checked="false"/>
+    <item android:id="@+id/mShowOffPrefMenuItem" android:enabled="true" android:checkable="true" android:titleCondensed="Show Off Pref" android:title="Show Offensive Preference" android:visible="true" android:checked="true"></item>
+    <item android:id="@+id/mShowPlaybooksMenuItem" android:enabled="true" android:checkable="true" android:titleCondensed="Show PB" android:title="Show Playbooks" android:visible="true" android:checked="true"></item>
+    <item android:id="@+id/mShowTeamFormationMenuItem" android:enabled="true" android:checkable="true" android:titleCondensed="Formations" android:title="Show Team Formations" android:visible="true" android:checked="true"></item>
+    <item android:id="@+id/mAdvancedSelectAllMenuItem" android:titleCondensed="Select All" android:title="Select All"></item>
+    <item android:id="@+id/mAdvancedCutMenuItem" android:title="Cut"></item>
+    <item android:id="@+id/mAdvancedCopyMenuItem" android:title="Copy"></item>
+    <item android:id="@+id/mAdvancedPasteMenuItem" android:title="Paste"></item>
+
+</menu>

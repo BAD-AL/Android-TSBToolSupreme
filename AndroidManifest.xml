@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tsbtoolsupreme"
+    android:versionCode="1"
+    android:versionName="1.0.1" >
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="20" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/face_9a"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.tsbtoolsupreme.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.tsbtoolsupreme.EditSelector" />
+        <activity android:name="com.example.tsbtoolsupreme.EditPlayerActivity" />
+        <activity android:name="com.example.tsbtoolsupreme.ChooseFaceActivity" />
+        <activity android:name="com.example.tsbtoolsupreme.EditTeamActivity" />
+        <activity android:name="com.example.tsbtoolsupreme.PlaySelectActivity" />
+        <activity
+            android:name="com.example.tsbtoolsupreme.ScheduleActivity"
+            android:label="@string/title_activity_schedule" >
+        </activity>
+        <activity
+            android:name="com.example.tsbtoolsupreme.AdvancedActivity"
+            android:label="@string/title_activity_advanced" >
+        </activity>
+        <activity
+            android:name="com.example.tsbtoolsupreme.DragDropSchedule"
+            android:label="@string/title_activity_drag_drop_schedule" >
+        </activity>
+        <activity
+            android:name="com.example.tsbtoolsupreme.UniformActivity"
+            android:label="@string/title_activity_uniform" >
+        </activity>
+        <activity
+            android:name="com.example.tsbtoolsupreme.HackActivity"
+            android:label="@string/title_activity_hack" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Spinner
+            android:id="@+id/mTeamsSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="49dp"
+            android:layout_weight="1" />
+
+        <Spinner
+            android:id="@+id/mPositionSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="49dp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/mHackDir"
+            android:layout_width="129dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.42"
+            android:ems="10"
+            android:hint="@string/first_name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/mLastNameTextBox"
+            android:layout_width="129dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.43"
+            android:ems="10"
+            android:hint="@string/last_name"
+            android:inputType="textPersonName" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageButton
+            android:id="@+id/mFaceButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/mJerseyLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.70"
+            android:gravity="center"
+            android:text="@string/jersey_pound"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/mPlayerNumberField"
+            android:layout_width="149dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="0-99"
+            android:inputType="number" >
+
+            <requestFocus />
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/mRunningSpeedLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="RS"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Spinner
+            android:id="@+id/mRunningSpeedSpinner"
+            android:layout_width="100dp"
+            android:layout_height="49dp" />
+
+        <TextView
+            android:id="@+id/mRushingPowerLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="RP"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Spinner
+            android:id="@+id/mRushingPowerSpinner"
+            android:layout_width="100dp"
+            android:layout_height="49dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/mMaxSpeedLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="MS"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Spinner
+            android:id="@+id/mMaxSpeedSpinner"
+            android:layout_width="100dp"
+            android:layout_height="fill_parent" />
+
+        <TextView
+            android:id="@+id/mMaxSpeedLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="HP"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Spinner
+            android:id="@+id/mHittingPowerSpinner"
+            android:layout_width="100dp"
+            android:layout_height="49dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/mAttr1Label"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="PS"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Spinner
+            android:id="@+id/mAtter1Spinner"
+            android:layout_width="100dp"
+            android:layout_height="49dp" />
+
+        <TextView
+            android:id="@+id/mAttr2Label"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="PC"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Spinner
+            android:id="@+id/mAtter2Spinner"
+            android:layout_width="100dp"
+            android:layout_height="49dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/mPassAccuracyLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="ACC"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Spinner
+            android:id="@+id/mPassAccuracySpinner"
+            android:layout_width="100dp"
+            android:layout_height="49dp" />
+
+        <TextView
+            android:id="@+id/mAvoidPassBlockLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="APB"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Spinner
+            android:id="@+id/mAvoidPassBlock"
+            android:layout_width="100dp"
+            android:layout_height="49dp" />
+    </LinearLayout>
+
+	     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/mSim1Label"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="sim run"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/mSim1TextBox"
+            android:layout_width="100dp"
+            android:layout_height="49dp"
+            android:layout_weight="1"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/mSim2Label"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="sim pass"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/mSim2TextBox"
+            android:layout_width="100dp"
+            android:layout_height="49dp"
+            android:layout_weight="1"
+            android:inputType="number" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+        <TextView
+            android:id="@+id/mSim3Label"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="sim pocket"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/mSim3TextBox"
+            android:layout_width="100dp"
+            android:layout_height="49dp"
+            android:layout_weight="1"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/mSim4Label"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="sim KR"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/mSim4TextBox"
+            android:layout_width="100dp"
+            android:layout_height="49dp"
+            android:layout_weight="1"
+            android:inputType="number" />
+
+    </LinearLayout>
+	    
+</LinearLayout>
+
+
+</ScrollView>
